@@ -4,7 +4,13 @@ import daisyui from "daisyui";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        baymanat: ['Baymanat', 'sans-serif'], // Use the name you defined in @font-face
+        liftoff: ['Liftoff', 'sans-serif'], // Use the name you defined in @font-face
+        saiba45: ['SAIBA-45', 'sans-serif'], // Use the name you defined in @font-face
+      },
+    },
   },
   plugins: [daisyui],
   daisyui: {

@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'Baymanat';
+    /* Name your font */
+    src: url('/fonts/Baymanat.ttf') format('truetype');
+    /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Liftoff';
+    /* Name your second font */
+    src: url('/fonts/Liftoff_Variable.ttf') format('truetype');
+    /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'SAIBA-45';
+    /* Name your third font */
+    src: url('/fonts/SAIBA-45.ttf') format('truetype');
+    /* Path to the font file */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+.picked {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 48px;
+}
+
+.picked2 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 28px;
+    margin-top: 10px;
+}
