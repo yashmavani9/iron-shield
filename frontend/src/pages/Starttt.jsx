@@ -36,7 +36,7 @@ const Starttt = () => {
       <h1 className='xl:px-28 md:px-20 sm:px-14 px-8 mt-14 mb-3 font-bold text-5xl max-md:text-center max-md:mb-8 max-md:mt-24'>Start chatting with Iron Shield</h1>
       <h4 className='xl:px-28 md:px-20 sm:px-14 px-8 mb-2 font-medium text-xl text-stone-500 max-md:text-center '>Shield your messages with military-grade encryption, <br className='max-sm:hidden' /> making privacy your top priority.</h4>
 
-{/*       <p className="text-stone-500 xl:px-28 md:px-20 sm:px-14 px-4 mt-80 max-md:mt-60 max-md:text-center py-5"><span className="italic border-b-2 border-stone-500 hover:text-black hover:border-black"><a href="https://yashmavani.tech" target="_blank">Yash Mavani</a></span> Production</p> */}
+      <p className="text-stone-500 xl:px-28 md:px-20 sm:px-14 px-4 mt-80 max-md:mt-60 max-md:text-center py-5"><span className="italic border-b-2 border-stone-500 hover:text-black hover:border-black"><a href="https://yashmavani.tech" target="_blank">Yash Mavani and Kumarpal</a></span> Production</p>
 
     </div>
   )
